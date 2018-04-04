@@ -1,0 +1,6 @@
+ Volume in drive D is Storage
+ Volume Serial Number is F019-98DA
+
+ Directory of D:\Tutorials\windows-batch-file-tutorial
+
+File Not Found

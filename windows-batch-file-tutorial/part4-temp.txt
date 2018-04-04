@@ -1,0 +1,46 @@
+ Volume in drive D is Storage
+ Volume Serial Number is F019-98DA
+
+ Directory of D:\Tutorials\windows-batch-file-tutorial
+
+03/26/2018  05:11 PM    <DIR>          .
+03/26/2018  05:11 PM    <DIR>          ..
+03/24/2018  03:30 PM             1,085 LICENSE
+03/24/2018  03:47 PM               362 part1.cmd
+03/24/2018  04:39 PM             1,414 part2.cmd
+03/26/2018  04:35 PM             1,869 part3.cmd
+03/26/2018  05:02 PM                16 part4-error.txt
+03/26/2018  05:02 PM               143 part4-output.txt
+03/26/2018  05:01 PM                26 part4-output2.txt
+03/26/2018  05:32 PM                 0 part4-temp.txt
+03/26/2018  05:09 PM             1,679 part4.cmd
+03/26/2018  05:11 PM                 0 part5-iexist.txt
+03/26/2018  05:32 PM             1,611 part5.cmd
+03/24/2018  03:30 PM                41 README.md
+03/24/2018  04:55 PM               111 Tutorial-Savepoint.url
+03/24/2018  03:30 PM                97 Tutorial.url
+              14 File(s)          8,454 bytes
+               2 Dir(s)  994,593,402,880 bytes free
+ Volume in drive D is Storage
+ Volume Serial Number is F019-98DA
+
+ Directory of D:\Tutorials\windows-batch-file-tutorial
+
+03/26/2018  05:11 PM    <DIR>          .
+03/26/2018  05:11 PM    <DIR>          ..
+03/24/2018  03:30 PM             1,085 LICENSE
+03/24/2018  03:47 PM               362 part1.cmd
+03/24/2018  04:39 PM             1,414 part2.cmd
+03/26/2018  04:35 PM             1,869 part3.cmd
+03/26/2018  05:02 PM                16 part4-error.txt
+03/26/2018  05:02 PM               143 part4-output.txt
+03/26/2018  05:01 PM                26 part4-output2.txt
+03/26/2018  05:32 PM             1,059 part4-temp.txt
+03/26/2018  05:09 PM             1,679 part4.cmd
+03/26/2018  05:11 PM                 0 part5-iexist.txt
+03/26/2018  05:32 PM             1,611 part5.cmd
+03/24/2018  03:30 PM                41 README.md
+03/24/2018  04:55 PM               111 Tutorial-Savepoint.url
+03/24/2018  03:30 PM                97 Tutorial.url
+              14 File(s)          9,513 bytes
+               2 Dir(s)  994,593,402,880 bytes free

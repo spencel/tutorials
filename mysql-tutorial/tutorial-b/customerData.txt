@@ -1,0 +1,9 @@
+Alfreds Futterkiste	Maria Anders	Obere Str. 57	Berlin	12209	Germany
+Ana Trujillo Emparedados y helados	Ana Trujillo	Avda. de la Constitucion 2222	Mexico D.F.	05021	Mexico
+Antonio Moreno Taqueria	Antonio Moreno	Mataderos 2312	Mexico D.F.	05023	Mexico
+Around the Horn	Thomas Hardy	120 Hanover Sq.	London	WA1 1DP	UK
+Berglunds snabbkop	Christina Berglund	Berguvsvagen 8	Lulea	S-958 22	Sweden
+Alfreds Futterkiste	Maria Anders	Obere Str. 57	Munchen	12209	Germany
+Beta Futterkiste	Maria Anders	Obere Str. 57	Munchen	12209	USA
+Gamma Futterkiste	Maria Anders	Obere Str. 57	Munchen	12209	USA
+Delta Futterkiste	Maria Anders	Obere Str. 57	Munchen	12209	USA

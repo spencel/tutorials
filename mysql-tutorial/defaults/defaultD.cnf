@@ -1,0 +1,8 @@
+# This is a comment.
+[mysqld]
+#initialize # initialize data directory and generate password (see log for it)
+#console # print log to console
+log-error # write log to host_name.err in data directory
+#log-error="D:\Program Files\mysql-5.7.21-winx64\data\log.err" # write log to specified file
+basedir="D:\Program Files\mysql-5.7.21-winx64"
+datadir="D:\Program Files\mysql-5.7.21-winx64\data"
