@@ -10,5 +10,12 @@
 # FROM table_name
 # WHERE column_name IS NOT NULL;
 
+USE bookstore_db;
+
 # The IS NULL operator:
-SELECT lastName
+SELECT lastName, firstName, address FROM person_tb
+WHERE address IS NULL;
+
+# The IS NOT NULL operator:
+SELECT lastName, firstName, address FROM person_tb
+WHERE address IS NOT NULL;

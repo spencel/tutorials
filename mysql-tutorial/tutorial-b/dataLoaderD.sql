@@ -25,17 +25,24 @@ LOAD
 INTO TABLE customer_tb
 FIELDS TERMINATED BY '\t'	# necessary - tab delimited fields
 LINES TERMINATED BY '\r\n' # necessary - newline/carriage return delimited records
-( customerName, contactName, address, city, postalCode, country ); # map field names in order they appear in the file to be imported
+( @customerName, @contactName, @address, @city, @postalCode, @country ) # map field names in order they appear in the file to be imported
+SET
+customerName = NULLIF(@customerName,''),
+contactName = NULLIF(@contactName,''),
+address = NULLIF(@address,''),
+city = NULLIF(@city,''),
+postalCode = NULLIF(@postalCode,''),
+country = NULLIF(@country,'');
 
 # Add person data
 DROP TABLE IF EXISTS person_tb;
 CREATE TABLE person_tb
 (
   id  int unsigned NOT NULL auto_increment, # does not need to exist in table to be loaded
-  lastName  longtext NOT NULL,
-  firstName longtext NOT NULL,
-  address   longtext,
-  city      longtext NOT NULL,
+  lastName  longtext DEFAULT NULL,
+  firstName longtext DEFAULT NULL,
+  address   longtext DEFAULT NULL,
+  city      longtext DEFAULT NULL,
 
   PRIMARY KEY     (id)
 );
@@ -48,4 +55,9 @@ LOAD
 INTO TABLE person_tb
 FIELDS TERMINATED BY '\t' # necessary - tab delimited fields
 LINES TERMINATED BY '\r\n'  # necessary - newline/carriage return delimited records
-( lastName, firstName, address, city ); # map field names in order they appear in the file to be imported
+( @lastName, @firstName, @address, @city ) # map field names in order they appear in the file to be imported
+SET 
+lastName = NULLIF(@lastName,''),
+firstName = NULLIF(@firstName,''),
+address = NULLIF(@address,''),
+city = NULLIF(@city,'');
