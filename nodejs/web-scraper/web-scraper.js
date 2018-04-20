@@ -19,7 +19,7 @@ const options = {
 rp( options )
 	.then( ( data ) => {
 		console.log( 'request succeeded' );
-		console.log( 'data:\n' + data( 'html' ) );
+		console.log( 'data:\n' + data( 'div.mwsbodytext' ) );
 	})
 	.catch( ( error ) => {
 		console.log( 'request failed' );
