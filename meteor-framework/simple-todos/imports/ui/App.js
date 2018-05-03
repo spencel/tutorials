@@ -8,22 +8,20 @@ import Task from './Task.js';
 // App component - represents the whole app
 class App extends React.Component {
 
-  handleSubmit( event ) {
-    event.preventDefaullt();
-
+	handleSubmit(event) {
+    event.preventDefault();
+ 
     // Find the text field via the React ref
     const text = ReactDOM.findDOMNode( this.refs.textInput ).value.trim();
-
+ 
     Tasks.insert({
       text,
-      createdAt: new Date() // current time
+      createdAt: new Date(), // current time
     });
-
+ 
     // Clear form
     ReactDOM.findDOMNode( this.refs.textInput ).value = '';
   }
-
-
  
   renderTasks() {
     return this.props.tasks.map(( task ) => (
@@ -37,7 +35,7 @@ class App extends React.Component {
         <header>
           <h1>Todo List</h1>
 
-          <form className='new-task' onSubmit={ this.handleSubmit.bind( this ) }>
+          <form className='new-task' onSubmit={ this.handleSubmit.bind( this ) } >
             <input
               type='text'
               ref='textInput'
