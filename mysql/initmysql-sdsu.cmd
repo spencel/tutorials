@@ -32,3 +32,4 @@ mysql -u root -p & REM password will be prompted, might be in the log file
 REM You should now be in mysql CLI
 REM You may need to reset your password:
 REM mysql> SET PASSWORD = PASSWORD('your_new_password');
+REM RIGHT THE PASSWORD DOWN IN THE DATA DIRECTORY OR SOMEWHERE EASY TO FIND
