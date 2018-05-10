@@ -1,0 +1,1 @@
+View > Model Explorer > Query Tab > paste 'new line' delimited data into the desired column
