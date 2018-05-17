@@ -27,7 +27,7 @@ class App extends React.Component {
 		const text = ReactDOM.findDOMNode( this.refs.textInput ).value.trim();
  
 		Meteor.call( 'mongoCollection_Tasks.insert', text );
- 
+
 		// Clear form
 		ReactDOM.findDOMNode( this.refs.textInput ).value = '';
 	}
@@ -48,9 +48,18 @@ class App extends React.Component {
 			filteredTasks = filteredTasks.filter( task => !task.checked );
 		}
 
-		return filteredTasks.map( ( task ) => (
-			<Task key={ task._id } task={ task } />
-			));
+		 return filteredTasks.map((task) => {
+      const currentUserId = this.props.currentUser && this.props.currentUser._id;
+      const showPrivateButton = task.owner === currentUserId;
+ 
+      return (
+        <Task
+          key={task._id}
+          task={task}
+          showPrivateButton={showPrivateButton}
+        />
+      );
+    });
 
 	}
  
@@ -97,6 +106,9 @@ class App extends React.Component {
 }
 
 export default withTracker( () => {
+
+	Meteor.subscribe( 'mongoCollection_Tasks' );
+
 	return {
 
 		// This becomes a member of props of App component?
