@@ -1,0 +1,4 @@
+Make sure the directory of putty.exe is in window's path variable.
+
+open cmd
+type: putty -ssh [username]@[host.com]
