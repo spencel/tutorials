@@ -1,0 +1,17 @@
+create a user:
+> sudo adduser slank
+
+add user to the sudo group to grant sudo privileges
+> sudo usermod -aG sudo slank
+
+see applications registered with UFW firewall
+> sudo ufw app list
+
+make sure firewall allows SSH connections
+> sudo ufw allow OpenSSH
+
+enable firewall
+> sudo ufw enable
+
+check status of firewall
+> sudo ufw status
