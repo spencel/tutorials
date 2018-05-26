@@ -1,0 +1,14 @@
+// create a database if it doesn't exist or switch to it
+use mydb
+
+// print name of database that has been switched to
+db
+
+// show all databases
+show dbs
+
+// insert a new collection
+db.movie.insert({"name":"tutorials point"})
+
+// show all collections
+show collections

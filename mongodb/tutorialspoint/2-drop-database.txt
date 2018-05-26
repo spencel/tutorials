@@ -1,0 +1,9 @@
+// switches to or creates mydb database
+use mydb
+
+show dbs
+
+// deletes database that has been switched to
+db.dropDatabase() 
+
+show dbs

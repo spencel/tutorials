@@ -1,0 +1,11 @@
+use mydb
+
+show collections
+
+db.createCollection( "deleteThisCollection" )
+
+show collections
+
+db.deleteThisCollection.drop()
+
+show collections
