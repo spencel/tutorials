@@ -1,0 +1,786 @@
+Client Log
+==========
+2017-12-05 21:14:58,581 [main] DEBUG Quick1X.QuickConnectDlg - Starting configuration.
+2017-12-05 21:14:58,581 [main] DEBUG changelog - Starting configuration for secure network connections.
+2017-12-05 21:14:58,581 [main] DEBUG Quick1X.Util - Attempting operating system detection.
+2017-12-05 21:14:58,581 [main] DEBUG Quick1X.Util - running Windows Enterprise Version
+2017-12-05 21:14:58,581 [main] DEBUG Quick1X.Util - Detected operating system higher than Windows XP
+2017-12-05 21:14:58,581 [main] DEBUG Quick1X.WlanApi - Initializing wlan api.
+2017-12-05 21:14:58,581 [main] DEBUG Quick1X.Config - Initing configuration.
+2017-12-05 21:14:58,581 [main] DEBUG Quick1X.Config - QuickConnect Mode isonboard
+2017-12-05 21:14:59,254 [main] DEBUG Quick1X.QuickConnectDlg - Calling javascript method : updateWorkingDirectory
+2017-12-05 21:15:02,113 [main] DEBUG Quick1X.QuickConnectDlg - Calling javascript method : updateQcMode
+2017-12-05 21:15:02,129 [main] DEBUG Quick1X.QuickConnectDlg - Processing configure
+2017-12-05 21:15:02,129 [null] DEBUG Quick1X.QuickConnectDlg - Processsing configure task
+2017-12-05 21:15:02,129 [null] DEBUG Quick1X.QuickConnectDlg - Fetching the configuration and certificate from the Onboard Server
+2017-12-05 21:15:02,129 [null] DEBUG Quick1X.QuickConnectDlg - Initing device info
+2017-12-05 21:15:02,129 [null] DEBUG Quick1X.DeviceInfo - Starting interface detection
+2017-12-05 21:15:02,129 [null] DEBUG Quick1X.Util - Running config task as logged in user
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.Util - Exit code from execed process 0
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Checking interface :Realtek PCIe GBE Family Controller
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Interface Type     :6
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Interface state    :2
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Trying to filter :Realtek PCIe GBE Family Controller
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Trying to filter (Unicode) :Realtek PCIe GBE Family Controller
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Adapter GUID:CC8100AD-1A85-40FF-A760-DAC2275A8F2D
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Description: Realtek PCIe GBE Family Controller
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Name: Ethernet
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - State: DISCONNECTED
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - DHCP : Enabled
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - DNS Registration: Enabled
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - DNS by DHCP: Enabled
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - MAC Address: 50:9A:4C:1E:51:1B
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Interface type : Wired
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Checking interface :Microsoft Wi-Fi Direct Virtual Adapter
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Interface Type     :71
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Interface state    :2
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Trying to filter :Microsoft Wi-Fi Direct Virtual Adapter
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Discarding interface : Microsoft Wi-Fi Direct Virtual Adapter
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Checking interface :Dell Wireless 1707 802.11b/g/n (2.4GHZ)
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Interface Type     :71
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Interface state    :1
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Trying to filter :Dell Wireless 1707 802.11b/g/n (2.4GHZ)
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Trying to filter (Unicode) :Dell Wireless 1707 802.11b/g/n (2.4GHZ)
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Adapter GUID:F8803D13-323E-4A9D-A7E2-40649CAC318F
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Description: Dell Wireless 1707 802.11b/g/n (2.4GHZ)
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Name: Wi-Fi
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - State: CONNECTED
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - DHCP : Enabled
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - DNS Registration: Enabled
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - DNS by DHCP: Enabled
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - MAC Address: D4:6A:6A:82:FF:45
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Interface type : Wireless
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Checking interface :Bluetooth Device (Personal Area Network)
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Interface Type     :6
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Interface state    :2
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Trying to filter :Bluetooth Device (Personal Area Network)
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Discarding interface : Bluetooth Device (Personal Area Network)
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Checking interface :Software Loopback Interface 1
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Interface Type     :24
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.DeviceInfo - Interface state    :1
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.QuickConnectDlg - Downloading device credentials from the Onboard server - https://clearpass2.sdsu.edu/guest/mdps_qc_enroll.php
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.QuickConnectDlg - Checking whether bypass proxy is false or true
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.QuickConnectDlg - Bypass proxy is false
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.QuickConnectDlg - Onboard server Host Name clearpass2.sdsu.edu
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.QuickConnectDlg - Onboard server URL Path /guest/mdps_qc_enroll.php
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.QuickConnectDlg - Retrieving value of Validate-Server-Certificate option
+2017-12-05 21:15:02,488 [null] INFO  Quick1X.QuickConnectDlg - Disabling Onboard server certificate validation
+2017-12-05 21:15:02,488 [null] DEBUG Quick1X.QuickConnectDlg - Detected Windows version - Windows 10 
+2017-12-05 21:15:02,785 [null] DEBUG Quick1X.QuickConnectDlg - Response received from Onboard Server-The size
+2017-12-05 21:15:02,785 [null] DEBUG Quick1X.QuickConnectDlg - 11293
+2017-12-05 21:15:02,785 [null] DEBUG Quick1X.ParseMobileConfig - The Length of xml11293
+2017-12-05 21:15:02,785 [null] DEBUG Quick1X.ParseMobileConfig - Message to Decode is open
+2017-12-05 21:15:02,785 [null] DEBUG Quick1X.ParseMobileConfig - Message update failedASN1 bad tag value met.
+2017-12-05 21:15:02,785 [null] ERROR Quick1X.ParseMobileConfig - Extracting Signed Message Failed, Treating the message as not signed
+2017-12-05 21:15:02,785 [null] DEBUG Quick1X.ParseMobileConfig - Successfully loaded xml
+2017-12-05 21:15:02,785 [null] DEBUG Quick1X.ParseMobileConfig - Starting to parse XML
+2017-12-05 21:15:02,785 [null] DEBUG Quick1X.ParseMobileConfig - Parsing config-wide Common Section
+2017-12-05 21:15:02,785 [null] DEBUG Quick1X.ParseMobileConfig - BypassProxyfalse
+2017-12-05 21:15:02,785 [null] DEBUG Quick1X.ParseMobileConfig - SupplicantWindows Supplicant
+2017-12-05 21:15:02,785 [null] DEBUG Quick1X.ParseMobileConfig - PayloadContentarray
+2017-12-05 21:15:02,785 [null] DEBUG Quick1X.ParseMobileConfig - Parsing for Certificates
+2017-12-05 21:15:02,785 [null] DEBUG Quick1X.ParseMobileConfig - Parsing the Certificate Section
+2017-12-05 21:15:02,785 [null] DEBUG Quick1X.ParseMobileConfig - Certificate Added to Certificate list
+2017-12-05 21:15:02,785 [null] DEBUG Quick1X.ParseMobileConfig - Parsing the Certificate Section
+2017-12-05 21:15:02,785 [null] DEBUG Quick1X.ParseMobileConfig - Certificate Added to Certificate list
+2017-12-05 21:15:02,785 [null] DEBUG Quick1X.ParseMobileConfig - Parsing the Certificate Section
+2017-12-05 21:15:02,785 [null] DEBUG Quick1X.ParseMobileConfig - Certificate Added to Certificate list
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Generating the certificate from client side
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Got subjectName C from onboard response
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Got subjectName O from onboard response
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Got subjectName OU from onboard response
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Got subjectName CN from onboard response
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Got custom attributes from onboard response
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Got custom attributes from onboard response
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Got custom attributes from onboard response
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Got custom attributes from onboard response
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Key Size2048
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Generating Certificate Signing Request For the client
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Got subjectName CN mverbyla
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Got subjectName O San Diego State University
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Got subjectName OU Network Services
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Got subjectName C US
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - The first call to CryptEncodeObject succeeded. 
+
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - The object is encoded. 
+
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Got custom attributes 1.3.6.1.4.1.14823.1.5.1.1 Windows
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Got custom attributes 1.3.6.1.4.1.14823.1.5.1.12 Windows 10
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Got custom attributes 1.3.6.1.4.1.14823.1.5.1.5 50:9a:4c:1e:51:1b,d4:6a:6a:82:ff:45
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Got MAC address  50:9a:4c:1e:51:1b
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Got MAC address  d4:6a:6a:82:ff:45
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Got custom attributes 1.3.6.1.4.1.14823.1.5.1.8 mverbyla
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Enoded customer attributes in altName
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Enoded customer altNameExentsion
+2017-12-05 21:15:02,801 [null] DEBUG Quick1X.ParseMobileConfig - Enoded customer certExentsion
+2017-12-05 21:15:03,191 [null] DEBUG Quick1X.ParseMobileConfig - Obtained Certificate Request Posting to user
+2017-12-05 21:15:03,191 [null] DEBUG Quick1X.ParseMobileConfig - UrlCracked
+2017-12-05 21:15:03,191 [null] DEBUG Quick1X.ParseMobileConfig - Session is established
+2017-12-05 21:15:03,191 [null] DEBUG Quick1X.ParseMobileConfig - Hconnect
+2017-12-05 21:15:03,191 [null] DEBUG Quick1X.ParseMobileConfig - Request Made
+2017-12-05 21:15:03,191 [null] DEBUG Quick1X.ParseMobileConfig - Retrieving value of Validate-Server-Certificate option
+2017-12-05 21:15:03,191 [null] DEBUG Quick1X.ParseMobileConfig - Disabling Onboard server certificate validation
+2017-12-05 21:15:03,285 [null] DEBUG Quick1X.ParseMobileConfig - HTTP Status Code200
+2017-12-05 21:15:03,285 [null] DEBUG Quick1X.ParseMobileConfig - Content-Typea
+2017-12-05 21:15:03,285 [null] DEBUG Quick1X.ParseMobileConfig - Got Certificate Data
+2017-12-05 21:15:03,285 [null] DEBUG Quick1X.ParseMobileConfig - Size of Data1800
+2017-12-05 21:15:03,285 [null] DEBUG Quick1X.ParseMobileConfig - Certificate Size1800
+2017-12-05 21:15:03,410 [null] DEBUG Quick1X.ParseMobileConfig - Pfx data Obtained
+2017-12-05 21:15:03,410 [null] DEBUG Quick1X.ParseMobileConfig - Getting client certifiate issuers from server
+2017-12-05 21:15:03,410 [null] DEBUG Quick1X.ParseMobileConfig - UrlCracked
+2017-12-05 21:15:03,410 [null] DEBUG Quick1X.ParseMobileConfig - Session is established
+2017-12-05 21:15:03,410 [null] DEBUG Quick1X.ParseMobileConfig - Hconnect
+2017-12-05 21:15:03,410 [null] DEBUG Quick1X.ParseMobileConfig - Request Made
+2017-12-05 21:15:03,410 [null] DEBUG Quick1X.ParseMobileConfig - Retrieving value of Validate-Server-Certificate option
+2017-12-05 21:15:03,410 [null] DEBUG Quick1X.ParseMobileConfig - Disabling Onboard server certificate validation
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - HTTP Status Code200
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - Content-Typea
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - Got Certificate Data
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - Size of Data3311
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - CA Certificate Size 3311
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - Decoded client issuer certificate
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - Got CA certificate context
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - Added CA certificate to list
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - Got CA certificate context
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - Added CA certificate to list
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - Could not Obtain CA Certificate Context
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - Successfully Generate Certificate for client from est
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - Parsing for Network definitions
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadCertificateFileName
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - b6c74d46-889d-4933-bcf2-5ebe4cf89c5e.pem
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadContent
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - MIIF+TCCA+GgAwIBAgIQRyDQ+oVGGn4XoWQCkYRjdDANBgkqhkiG9w0BAQwFADCB
+				iDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCk5ldyBKZXJzZXkxFDASBgNVBAcTC0pl
+				cnNleSBDaXR5MR4wHAYDVQQKExVUaGUgVVNFUlRSVVNUIE5ldHdvcmsxLjAsBgNV
+				BAMTJVVTRVJUcnVzdCBSU0EgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwHhcNMTQx
+				MDA2MDAwMDAwWhcNMjQxMDA1MjM1OTU5WjB2MQswCQYDVQQGEwJVUzELMAkGA1UE
+				CBMCTUkxEjAQBgNVBAcTCUFubiBBcmJvcjESMBAGA1UEChMJSW50ZXJuZXQyMREw
+				DwYDVQQLEwhJbkNvbW1vbjEfMB0GA1UEAxMWSW5Db21tb24gUlNBIFNlcnZlciBD
+				QTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJwb8bsvf2MYFVFRVA+e
+				xU5NEFj6MJsXKZDmMwysE1N8VJG06thum4ltuzM+j9INpun5uukNDBqeso7JcC7v
+				HgV9lestjaKpTbOc5/MZNrun8XzmCB5hJ0R6lvSoNNviQsil2zfVtefkQnI/tBPP
+				iwckRR6MkYNGuQmm/BijBgLsNI0yZpUn6uGX6Ns1oytW61fo8BBZ321wDGZq0GTl
+				qKOYMa0dYtX6kuOaQ80tNfvZnjNbRX3EhigsZhLI2w8ZMA0/6fDqSl5AB8f2IHpT
+				eIFken5FahZv9JNYyWL7KSd9oX8hzudPR9aKVuDjZvjs3YncJowZaDuNi+L7RyML
+				fzcCAwEAAaOCAW4wggFqMB8GA1UdIwQYMBaAFFN5v1qqK0rPVIDh2JvAnfKyA2bL
+				MB0GA1UdDgQWBBQeBaN3j2yW4luHS6a0hqxxAAznODAOBgNVHQ8BAf8EBAMCAYYw
+				EgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUH
+				AwIwGwYDVR0gBBQwEjAGBgRVHSAAMAgGBmeBDAECAjBQBgNVHR8ESTBHMEWgQ6BB
+				hj9odHRwOi8vY3JsLnVzZXJ0cnVzdC5jb20vVVNFUlRydXN0UlNBQ2VydGlmaWNh
+				dGlvbkF1dGhvcml0eS5jcmwwdgYIKwYBBQUHAQEEajBoMD8GCCsGAQUFBzAChjNo
+				dHRwOi8vY3J0LnVzZXJ0cnVzdC5jb20vVVNFUlRydXN0UlNBQWRkVHJ1c3RDQS5j
+				cnQwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnVzZXJ0cnVzdC5jb20wDQYJKoZI
+				hvcNAQEMBQADggIBAC0RBjjW29dYaK+qOGcXjeIT16MUJNkGE+vrkS/fT2ctyNMU
+				11ZlUp5uH5gIjppIG8GLWZqjV5vbhvhZQPwZsHURKsISNrqOcooGTie3jVgU0W+0
+				+Wj8mN2knCVANt69F2YrA394gbGAdJ5fOrQmL2pIhDY0jqco74fzYefbZ/VS29fR
+				5jBxu4uj1P+5ZImem4Gbj1e4ZEzVBhmO55GFfBjRidj26h1oFBHZ7heDH1Bjzw72
+				hipu47Gkyfr2NEx3KoCGMLCj3Btx7ASn5Ji8FoU+hCazwOU1VX55mKPU1I2250Lo
+				RCASN18JyfsD5PVldJbtyrmz9gn/TKbRXTr80U2q5JhyvjhLf4lOJo/UzL5WCXED
+				Smyj4jWG3R7Z8TED9xNNCxGBMXnMete+3PvzdhssvbORDwBZByogQ9xL2LUZFI/i
+				eoQp0UM/L8zfP527vWjEzuDN5xwxMnhi+vCToh7J159o5ah29mP+aJnvujbXEnGa
+				nrNxHzu+AGOePV8hwrGGG7hOIcPDQwkuYwzN/xT29iLp/cqf9ZhEtkGcQcIImH3b
+				oJ8ifsCnSbu0GB9L06Yqh7lcyvKDTEADslIaeSEINxhO2Y1fmcYFX/Fqrrp1WnhH
+				OjplXuXE0OPa0utaKC25Aplgom88L2Z8mEWcyfoB7zKOfD759AN7JKZWCYwk
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadDescription
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - Provides device authentication (certificate or identity).
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadDisplayName
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - InCommon RSA Server CA
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadOrganization
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - San Diego State University
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadType
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - com.apple.security.pkcs1
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadUUID
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - b6c74d46-889d-4933-bcf2-5ebe4cf89c5e
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - The type of networkconfig
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadCertificateFileName
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 87f1dd77-d80a-40af-8012-89678e7d373e.pem
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadContent
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - MIIFdzCCBF+gAwIBAgIQE+oocFv07O0MNmMJgGFDNjANBgkqhkiG9w0BAQwFADBv
+				MQswCQYDVQQGEwJTRTEUMBIGA1UEChMLQWRkVHJ1c3QgQUIxJjAkBgNVBAsTHUFk
+				ZFRydXN0IEV4dGVybmFsIFRUUCBOZXR3b3JrMSIwIAYDVQQDExlBZGRUcnVzdCBF
+				eHRlcm5hbCBDQSBSb290MB4XDTAwMDUzMDEwNDgzOFoXDTIwMDUzMDEwNDgzOFow
+				gYgxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpOZXcgSmVyc2V5MRQwEgYDVQQHEwtK
+				ZXJzZXkgQ2l0eTEeMBwGA1UEChMVVGhlIFVTRVJUUlVTVCBOZXR3b3JrMS4wLAYD
+				VQQDEyVVU0VSVHJ1c3QgUlNBIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MIICIjAN
+				BgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAgBJlFzYOw9sIs9CsVw127c0n00yt
+				UINh4qogTQktZAnczomfzD2p7PbPwdzx07HWezcoEStH2jnGvDoZtF+mvX2do2NC
+				tnbyqTsrkfjib9DsFiCQCT7i6HTJGLSR1GJk23+jBvGIGGqQIjy8/hPwhxR79uQf
+				jtTkUcYRZ0YIUcuGFFQ/vDP+fmyc/xadGL1RjjWmp2bIcmfbIWax1Jt4A8BQOujM
+				8Ny8nkz+rwWWNR9XWrf/zvk9tyy29lTdyOcSOk2uTIq3XJq0tyA9yn8iNK5+O2hm
+				AUTnAU5GU5szYPeUvlM3kHND8zLDU+/bqv50TmnHa4xgk97Exwzf4TKuzJM7UXiV
+				Z4vuPVb+DNBpDxsP8yUmazNt925H+nND5X4OpWaxKXwyhGNVicQNwZNUMBkTrNN9
+				N6frXTpsNVzbQdcS2qlJC9/YgIoJk2KOtWbPJYjNhLixP6Q5D9kCnusSTJV882sF
+				qV4Wg8y4Z+LoE53MW4LTTLPtW//e5XOsIzstAL81VXQJSdhJWBp/kjbmUZIO8yZ9
+				HE0XvMnsQybQv0FfQKlERPSZ51eHnlAfV1SoPv10Yy+xUGUJ5lhCLkMaTLTwJUdZ
+				+gQek9QmRkpQgbLevni3/GcV4clXhB4PY9bpYrrWX1Uu6lzGKAgEJTm4Diup8kyX
+				HAc/DVL17e8vgg8CAwEAAaOB9DCB8TAfBgNVHSMEGDAWgBStvZh6NLQm9/rEJlTv
+				A73gJMtUGjAdBgNVHQ4EFgQUU3m/WqorSs9UgOHYm8Cd8rIDZsswDgYDVR0PAQH/
+				BAQDAgGGMA8GA1UdEwEB/wQFMAMBAf8wEQYDVR0gBAowCDAGBgRVHSAAMEQGA1Ud
+				HwQ9MDswOaA3oDWGM2h0dHA6Ly9jcmwudXNlcnRydXN0LmNvbS9BZGRUcnVzdEV4
+				dGVybmFsQ0FSb290LmNybDA1BggrBgEFBQcBAQQpMCcwJQYIKwYBBQUHMAGGGWh0
+				dHA6Ly9vY3NwLnVzZXJ0cnVzdC5jb20wDQYJKoZIhvcNAQEMBQADggEBAJNl9jeD
+				lQ9ew4IcH9Z35zyKwKoJ8OkLJvHgwmp1ocd5yblSYMgpEg7wrQPWCcR23+WmgZWn
+				RtqCV6mVksW2jwMibDN3wXsyF24HzloUQToFJBv2FAY7qCUkDrvMKnXduXBBP3zQ
+				YzYhBx9G/2CkkeFnvN4ffhkUyWNnkepnB2u0j4vAbkN9w6GAbLIevFOFfdyQoaS8
+				Le9Gclc1Bb+7RrtubTeZtv8jkpHGbkD4jylW6l/VXxRTrPBPYer3IsynVgviuDQf
+				Jtl7GQVoP7o81DgGotPmjw7jtHFtQELFhLRAlSv0ZaBIefYdgWOWnU914Ph85I6p
+				0fKtirOMxyHNwu8=
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadDescription
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - Provides device authentication (certificate or identity).
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadDisplayName
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - USERTrust RSA Certification Authority
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadOrganization
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - San Diego State University
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadType
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - com.apple.security.pkcs1
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadUUID
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 87f1dd77-d80a-40af-8012-89678e7d373e
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - The type of networkconfig
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadCertificateFileName
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 907bc5e2-02cd-440f-895d-0b998dd4e912.pem
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadContent
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - MIIENjCCAx6gAwIBAgIBATANBgkqhkiG9w0BAQUFADBvMQswCQYDVQQGEwJTRTEU
+				MBIGA1UEChMLQWRkVHJ1c3QgQUIxJjAkBgNVBAsTHUFkZFRydXN0IEV4dGVybmFs
+				IFRUUCBOZXR3b3JrMSIwIAYDVQQDExlBZGRUcnVzdCBFeHRlcm5hbCBDQSBSb290
+				MB4XDTAwMDUzMDEwNDgzOFoXDTIwMDUzMDEwNDgzOFowbzELMAkGA1UEBhMCU0Ux
+				FDASBgNVBAoTC0FkZFRydXN0IEFCMSYwJAYDVQQLEx1BZGRUcnVzdCBFeHRlcm5h
+				bCBUVFAgTmV0d29yazEiMCAGA1UEAxMZQWRkVHJ1c3QgRXh0ZXJuYWwgQ0EgUm9v
+				dDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALf3GjPm8gAELTngTlvt
+				H7xsD821+iO2zt6bETOXpClMfZOfvUq8k+0DGuOPz+VtUFrWlymUWoCwSXrbLpX9
+				uMq/NzgtHj6RQa1wVsfwTz/oMp50ysiQVOnGXw94nZpAPA6sYapeFI+eh6FqUNzX
+				mk6vBbOmcZSccbNQYArHE504B4YCqOmoaSYYkKtMsE8jqzpPhNjfzp/haW+710LX
+				a0Tkx63ubUFfclpxCDezeWWkWaCUN/cALw3CknLa0Dhy2xSoRcRdKn23tNbE7qzN
+				E0S3ySvdQwAl+mG5aWpYIxG3pzOPVnVZ9c0p10a3CitlttNCbxWyuHv77+ldU9U0
+				WicCAwEAAaOB3DCB2TAdBgNVHQ4EFgQUrb2YejS0Jvf6xCZU7wO94CTLVBowCwYD
+				VR0PBAQDAgEGMA8GA1UdEwEB/wQFMAMBAf8wgZkGA1UdIwSBkTCBjoAUrb2YejS0
+				Jvf6xCZU7wO94CTLVBqhc6RxMG8xCzAJBgNVBAYTAlNFMRQwEgYDVQQKEwtBZGRU
+				cnVzdCBBQjEmMCQGA1UECxMdQWRkVHJ1c3QgRXh0ZXJuYWwgVFRQIE5ldHdvcmsx
+				IjAgBgNVBAMTGUFkZFRydXN0IEV4dGVybmFsIENBIFJvb3SCAQEwDQYJKoZIhvcN
+				AQEFBQADggEBALCb4IUlwtYj4g+WBpKdQZic2YR5gdkeWxQHIzZlj7DYd7usQWxH
+				YINRsPkyPef89iYTx4AWpb9a/IfPeHmJIZriTAcKhjW88t5RxNKWt9x+Tu5w/Rw5
+				6wwCURQtjr0W4MHfRnXnJK3s9EK0hZNwEGe6nQY1ShjTK3rMUUKhemPR5ruhxSvC
+				Nr4TDea9Y355e6cJDUCrat2PisP29owaQgVR1EX1n6diIWgVIEM8med8vSTYqZEX
+				c4g/VhsxOBi0cQ+azcgOno4uG+GMmIPLHzHxREzGBHNJdmAPx/i9F4BrLunMTA5a
+				mnkPIAou1Z5jJh5VkpTYghdae9C8x49OhgQ=
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadDescription
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - Provides device authentication (certificate or identity).
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadDisplayName
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - AddTrust External CA Root
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadOrganization
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - San Diego State University
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadType
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - com.apple.security.pkcs1
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadUUID
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 907bc5e2-02cd-440f-895d-0b998dd4e912
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - The type of networkconfig
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - EnableNap
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - AuthMode
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - User Only
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - Encryption
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - AES
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - admin.user
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - admin.password
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - LHopamZnb2BufHtsbSkseg==
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - ipbydhcp
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - dnsbydhcp
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - registerwithdns
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - showicon
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - wirelesscontrol
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - notifylimited
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - certificatestore
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - Machine and User
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - fastreconnect
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - healthcheck
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - cryptobinding
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - securitytype
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - Enterprise
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - validateserver
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - networktype
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - wireless
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadCertificateUUID
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 9662bf10-ea6d-468f-aeeb-10e753819d4d
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - PayloadType
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - com.apple.wifi.managed
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - SSID_STR
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - eduroam
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - EncryptionType
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - WPA2
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - HIDDEN_NETWORK
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - AutoJoin
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - ProxyServer
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - ProxyServerPort
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - 8080
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - ProxyType
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - None
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - EAPClientConfiguration
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - AcceptEAPTypes 13 TTLSInnerAuthentication MSCHAPv2 PayloadCertificateAnchorUUID b6c74d46-889d-4933-bcf2-5ebe4cf89c5e 87f1dd77-d80a-40af-8012-89678e7d373e 907bc5e2-02cd-440f-895d-0b998dd4e912 UserName mverbyla UserPassword okpyQRPsrmbdILQU1AeFgE3D TLSAllowTrustExceptions TLSTrustedServerNames clearpass.sdsu.edu
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - The type of networkconfigwireless
+2017-12-05 21:15:03,457 [null] DEBUG Quick1X.ParseMobileConfig - Parsing the Wireless Section for network eduroam
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Parsing EAP Config for section eduroam.xp.wireless
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Writing a Public Certificate with namecer_3
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Converted to base64 to binary format
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Converted to binary format 2
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Added CA Certificate
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Getting thumbprint
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Got certificate thumbprint : f5fb01dea6e59ca6dd057054f4a3ff72dde1d5c6
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Certificate installed
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Writing a Public Certificate with namecer_2
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Converted to base64 to binary format
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Converted to binary format 2
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Added CA Certificate
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Getting thumbprint
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Got certificate thumbprint : eab040689a0d805b5d6fd654fc168cff00b78be3
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Certificate installed
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Writing a Public Certificate with namecer_1
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Converted to base64 to binary format
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Converted to binary format 2
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Added CA Certificate
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Getting thumbprint
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Got certificate thumbprint : 02faf3e291435468607857694df5e45b68851868
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Certificate installed
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Writing a Public Certificate with nameclientcacer_0
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Converted to base64 to binary format
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Converted to binary format 2
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Added CA Certificate
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Getting thumbprint
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Got certificate thumbprint : 35a814e37be71d7f11667faf982f1d4341b193cb
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Certificate installed
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Writing a Public Certificate with nameclientcacer_1
+2017-12-05 21:15:03,473 [null] DEBUG Quick1X.ParseMobileConfig - Converted to base64 to binary format
+2017-12-05 21:15:03,488 [null] DEBUG Quick1X.ParseMobileConfig - Converted to binary format 2
+2017-12-05 21:15:03,488 [null] DEBUG Quick1X.ParseMobileConfig - Added CA Certificate
+2017-12-05 21:15:03,488 [null] DEBUG Quick1X.ParseMobileConfig - Getting thumbprint
+2017-12-05 21:15:03,488 [null] DEBUG Quick1X.ParseMobileConfig - Got certificate thumbprint : 045d5f32fd6065b3a705e830f83e3ef0a9ee02d3
+2017-12-05 21:15:03,488 [null] DEBUG Quick1X.ParseMobileConfig - Certificate installed
+2017-12-05 21:15:03,488 [null] DEBUG Quick1X.ParseMobileConfig - Writing client cert issuers - clientcacer_0,clientcacer_1 in section, eduroam.xp.wireless
+2017-12-05 21:15:03,488 [null] DEBUG Quick1X.ParseMobileConfig - Parsing EAP Config for section eduroam.vista.wireless
+2017-12-05 21:15:03,488 [null] DEBUG Quick1X.ParseMobileConfig - Writing client cert issuers - clientcacer_0,clientcacer_1 in section, eduroam.vista.wireless
+2017-12-05 21:15:03,488 [null] DEBUG Quick1X.ParseMobileConfig - Payload has a Private key to be parsed
+2017-12-05 21:15:03,504 [null] DEBUG Quick1X.CertificateStore - Got certificate with name : mverbyla
+2017-12-05 21:15:03,504 [null] DEBUG Quick1X.CertificateStore - Got certificate thumbprint : 692558d778fc1630e3bd4aee20e72c9c331d08b6
+2017-12-05 21:15:03,504 [null] DEBUG Quick1X.ParseMobileConfig - Writing the Network Common Section for network eduroam
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.ParseMobileConfig - ESTURL
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.ParseMobileConfig - https://clearpass2.sdsu.edu/.well-known/est/qc:njsp90000eiook9chrnuo8sjj3/simpleenroll
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.ParseMobileConfig - ESTKeyType
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.ParseMobileConfig - rsa_2048
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.ParseMobileConfig - PayloadType
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.ParseMobileConfig - com.arubanetworks.est
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.ParseMobileConfig - PayloadUUID
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.ParseMobileConfig - 9662bf10-ea6d-468f-aeeb-10e753819d4d
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.ParseMobileConfig - Subject
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.ParseMobileConfig - C US ST California L San Diego O San Diego State University OU Network Services CN mverbyla 1.3.6.1.4.1.14823.1.5.1.1 Windows 1.3.6.1.4.1.14823.1.5.1.12 Windows 10 1.3.6.1.4.1.14823.1.5.1.5 50:9a:4c:1e:51:1b,d4:6a:6a:82:ff:45 1.3.6.1.4.1.14823.1.5.1.8 mverbyla
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.ParseMobileConfig - The type of networkconfig
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.Config - Found network definition : eduroam
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.Config - Operating Systems List : 1,2
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.QuickConnectDlg - Number of networks to be configured1
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.QuickConnectDlg - Configuring the networkeduroam
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.Config - Initing common profile.
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.Config - Checking admin credentials.
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.Config - Admin credentials not found.
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.Config - Initing wireless profile
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.Config - Initing wired profile
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.Config - Wired section does not exist
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.QuickConnectDlg - Configuring windows supplicant
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.QuickConnectDlg - Initing device info
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.DeviceInfo - Starting interface detection
+2017-12-05 21:15:03,519 [null] DEBUG Quick1X.Util - Running config task as logged in user
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.Util - Exit code from execed process 0
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Checking interface :Realtek PCIe GBE Family Controller
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Interface Type     :6
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Interface state    :2
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Trying to filter :Realtek PCIe GBE Family Controller
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Trying to filter (Unicode) :Realtek PCIe GBE Family Controller
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Adapter GUID:CC8100AD-1A85-40FF-A760-DAC2275A8F2D
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Description: Realtek PCIe GBE Family Controller
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Name: Ethernet
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - State: DISCONNECTED
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - DHCP : Enabled
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - DNS Registration: Enabled
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - DNS by DHCP: Enabled
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - MAC Address: 50:9A:4C:1E:51:1B
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Interface type : Wired
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Checking interface :Microsoft Wi-Fi Direct Virtual Adapter
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Interface Type     :71
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Interface state    :2
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Trying to filter :Microsoft Wi-Fi Direct Virtual Adapter
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Discarding interface : Microsoft Wi-Fi Direct Virtual Adapter
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Checking interface :Dell Wireless 1707 802.11b/g/n (2.4GHZ)
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Interface Type     :71
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Interface state    :1
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Trying to filter :Dell Wireless 1707 802.11b/g/n (2.4GHZ)
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Trying to filter (Unicode) :Dell Wireless 1707 802.11b/g/n (2.4GHZ)
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Adapter GUID:F8803D13-323E-4A9D-A7E2-40649CAC318F
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Description: Dell Wireless 1707 802.11b/g/n (2.4GHZ)
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Name: Wi-Fi
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - State: CONNECTED
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - DHCP : Enabled
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - DNS Registration: Enabled
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - DNS by DHCP: Enabled
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - MAC Address: D4:6A:6A:82:FF:45
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Interface type : Wireless
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Checking interface :Bluetooth Device (Personal Area Network)
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Interface Type     :6
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Interface state    :2
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Trying to filter :Bluetooth Device (Personal Area Network)
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Discarding interface : Bluetooth Device (Personal Area Network)
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Checking interface :Software Loopback Interface 1
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Interface Type     :24
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.DeviceInfo - Interface state    :1
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.QuickConnectDlg - Wireless connection, GUID: F8803D13-323E-4A9D-A7E2-40649CAC318F Name: Wi-Fi
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.QuickConnectDlg - Wired connection, GUID: CC8100AD-1A85-40FF-A760-DAC2275A8F2D Name: Ethernet
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.Configurator - Iinitializing wired device
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.CProfileBuilder - Certificates for wireless
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.CProfileBuilder - Certificate ID: cer_3
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.CProfileBuilder - Thumbprint : f5fb01dea6e59ca6dd057054f4a3ff72dde1d5c6
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.CProfileBuilder - Certificate ID: cer_2
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.CProfileBuilder - Thumbprint : eab040689a0d805b5d6fd654fc168cff00b78be3
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.CProfileBuilder - Certificate ID: cer_1
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.CProfileBuilder - Thumbprint : 02faf3e291435468607857694df5e45b68851868
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.CProfileBuilder - Client Certificate issuers for for wireless
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.CProfileBuilder - Certificate ID: clientcacer_0
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.CProfileBuilder - Thumbprint : 35a814e37be71d7f11667faf982f1d4341b193cb
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.CProfileBuilder - Certificate ID: clientcacer_1
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.CProfileBuilder - Thumbprint : 045d5f32fd6065b3a705e830f83e3ef0a9ee02d3
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.Configurator - Installing certificates to User
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.Configurator - Attempting to install cert cer_1.der
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.CertificateStore - Added certificated to trusted store of User
+2017-12-05 21:15:03,566 [null] DEBUG Quick1X.Configurator - Attempting to install cert cer_2.der
+2017-12-05 21:15:06,770 [null] DEBUG Quick1X.CertificateStore - Added certificated to trusted store of User
+2017-12-05 21:15:06,770 [null] DEBUG Quick1X.Configurator - Attempting to install cert cer_3.der
+2017-12-05 21:15:08,020 [null] DEBUG Quick1X.CertificateStore - Added certificated to trusted store of User
+2017-12-05 21:15:08,020 [null] DEBUG Quick1X.Configurator - Attempting to install cert clientcacer_0.der
+2017-12-05 21:15:09,411 [null] DEBUG Quick1X.CertificateStore - Added certificated to trusted store of User
+2017-12-05 21:15:09,411 [null] DEBUG Quick1X.Configurator - Attempting to install cert clientcacer_1.der
+2017-12-05 21:15:10,802 [null] DEBUG Quick1X.CertificateStore - Added certificated to trusted store of User
+2017-12-05 21:15:10,802 [null] DEBUG Quick1X.Configurator - TLS certificate present and TLS method is configured, attempting to install certificate
+2017-12-05 21:15:10,817 [null] DEBUG Quick1X.CertificateStore - Added certificate successfully
+2017-12-05 21:15:10,817 [null] DEBUG Quick1X.Configurator - Collection the Applications to be installed
+2017-12-05 21:15:10,817 [null] DEBUG Quick1X.Configurator - No applications have to be installed
+2017-12-05 21:15:10,817 [null] DEBUG Quick1X.Configurator - Admin access needed to install TLS certificate in machine store
+2017-12-05 21:15:10,817 [null] DEBUG Quick1X.QuickConnectDlg - Configuration requires Admin credentials
+2017-12-05 21:15:10,817 [null] DEBUG Quick1X.Config - Writing TLS config information for Admin helper
+2017-12-05 21:15:10,817 [null] DEBUG Quick1X.Util - Running admin configurator helper
+2017-12-05 21:15:10,817 [null] DEBUG Quick1X.Util - Running Admin Helper0
+2017-12-05 21:15:10,817 [null] DEBUG Quick1X.Util - Lanching admin helper script as user 
+2017-12-05 21:15:10,817 [null] DEBUG Quick1X.Util - Running For Windows 8 with Create Process
+2017-12-05 21:15:10,817 [null] DEBUG Quick1X.Util - Running config task as logged in user
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.Util - Exit code from execed process 0
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.Util - Admin helper script exited with 0
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.QuickConnectDlg - Verifying admin configuration tasks
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.QuickConnectDlg - Verified system services configuration
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.QuickConnectDlg - Verified NAP configuration
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.QuickConnectDlg - Config admin helper configured machine certificates
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.QuickConnectDlg - Verified wireless IP settings configuration
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.QuickConnectDlg - Verified wired IP settings configuration
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.Configurator - Initializing wireless device
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.NetworkInterfaceWlan - Autoconfig is enabled on wireless interface
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.Configurator - Got profiles to delete 
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.Configurator - Configuring wireless profile
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.CProfileBuilder - Windows8 or greater - adding IssuerHash to XML profile
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.CProfileBuilder - Fingerprint: 35 a8 14 e3 7b e7 1d 7f 11 66 7f af 98 2f 1d 43 41 b1 93 cb 
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.CProfileBuilder - Fingerprint: 04 5d 5f 32 fd 60 65 b3 a7 05 e8 30 f8 3e 3e f0 a9 ee 02 d3 
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.CProfileBuilder - Not converting config XML to binary blob for >= Windows 8
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.Configurator - Applying following profile.
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.Configurator - <?xml version="1.0" encoding="US-ASCII"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+  <name>eduroam</name>
+  <SSIDConfig>
+    <SSID>
+      <name>eduroam</name>
+    </SSID>
+    <nonBroadcast>true</nonBroadcast>
+  </SSIDConfig>
+  <connectionType>ESS</connectionType>
+  <connectionMode>auto</connectionMode>
+  <MSM>
+  <security>
+    <authEncryption>
+      <authentication>WPA2</authentication>
+      <encryption>AES</encryption>
+      <useOneX>true</useOneX>
+    </authEncryption>
+    <OneX xmlns="http://www.microsoft.com/networking/OneX/v1">
+  <authMode>machineOrUser</authMode>
+  <EAPConfig>
+       <EapHostConfig xmlns="http://www.microsoft.com/provisioning/EapHostConfig"
+        xmlns:eapCommon="http://www.microsoft.com/provisioning/EapCommon"
+        xmlns:baseEap="http://www.microsoft.com/provisioning/BaseEapMethodConfig"
+        >
+        <EapMethod>
+          <eapCommon:Type>13</eapCommon:Type>
+          <eapCommon:AuthorId>0</eapCommon:AuthorId>
+        </EapMethod>
+        <Config xmlns:baseEap="http://www.microsoft.com/provisioning/BaseEapConnectionPropertiesV1"
+ xmlns:eapTls="http://www.microsoft.com/provisioning/EapTlsConnectionPropertiesV1">
+<baseEap:Eap>
+  <baseEap:Type>13</baseEap:Type> 
+  <eapTls:EapType> 
+    <eapTls:CredentialsSource> 
+     <eapTls:CertificateStore> 
+    <eapTls:SimpleCertSelection>true</eapTls:SimpleCertSelection> 
+</eapTls:CertificateStore> 
+    </eapTls:CredentialsSource> 
+    <eapTls:ServerValidation>
+<eapTls:DisableUserPromptForServerValidation>false</eapTls:DisableUserPromptForServerValidation>
+<eapTls:ServerNames>clearpass.sdsu.edu</eapTls:ServerNames>
+<eapTls:TrustedRootCA>f5fb01dea6e59ca6dd057054f4a3ff72dde1d5c6</eapTls:TrustedRootCA>
+<eapTls:TrustedRootCA>eab040689a0d805b5d6fd654fc168cff00b78be3</eapTls:TrustedRootCA>
+<eapTls:TrustedRootCA>02faf3e291435468607857694df5e45b68851868</eapTls:TrustedRootCA>
+
+</eapTls:ServerValidation>
+ 
+    <eapTls:DifferentUsername>false</eapTls:DifferentUsername> 
+    <TLSExtensions xmlns="http://www.microsoft.com/provisioning/EapTlsConnectionPropertiesV2"> 
+<FilteringInfo xmlns="http://www.microsoft.com/provisioning/EapTlsConnectionPropertiesV3">  
+    <CAHashList Enabled="true"> 
+       <IssuerHash>35 a8 14 e3 7b e7 1d 7f 11 66 7f af 98 2f 1d 43 41 b1 93 cb </IssuerHash>
+<IssuerHash>04 5d 5f 32 fd 60 65 b3 a7 05 e8 30 f8 3e 3e f0 a9 ee 02 d3 </IssuerHash>
+                       
+    </CAHashList> 
+</FilteringInfo> 
+</TLSExtensions> 
+  
+  </eapTls:EapType>
+</baseEap:Eap>
+</Config>
+
+     </EapHostConfig>
+ 
+  </EAPConfig>
+</OneX>
+
+  </security>
+  </MSM>
+</WLANProfile>
+
+2017-12-05 21:15:11,505 [null] DEBUG changelog - Wireless interfaces selected for configuration: Wi-Fi
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.CProfileBuilder - Client Cert fingerprint: 69 25 58 d7 78 fc 16 30 e3 bd 4a ee 20 e7 2c 9c 33 1d 08 b6 
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.CProfileBuilder - Applying credentials profile: <?xml version="1.0" ?> 
+<EapHostUserCredentials xmlns="http://www.microsoft.com/provisioning/EapHostUserCredentials" 
+  xmlns:eapCommon="http://www.microsoft.com/provisioning/EapCommon" 
+  xmlns:baseEap="http://www.microsoft.com/provisioning/BaseEapMethodUserCredentials"> 
+  <EapMethod> 
+    <eapCommon:Type>13</eapCommon:Type> 
+    <eapCommon:AuthorId>0</eapCommon:AuthorId> 
+  </EapMethod> 
+  <Credentials xmlns:eapUser="http://www.microsoft.com/provisioning/EapUserPropertiesV1" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xmlns:baseEap="http://www.microsoft.com/provisioning/BaseEapUserPropertiesV1" 
+      xmlns:eapTls="http://www.microsoft.com/provisioning/EapTlsUserPropertiesV1"> 
+    <baseEap:Eap> 
+       <baseEap:Type>13</baseEap:Type> 
+       <eapTls:EapType> 
+          <eapTls:UserCert>69 25 58 d7 78 fc 16 30 e3 bd 4a ee 20 e7 2c 9c 33 1d 08 b6 </eapTls:UserCert> 
+       </eapTls:EapType> 
+    </baseEap:Eap> 
+  </Credentials> 
+</EapHostUserCredentials> 
+
+2017-12-05 21:15:11,505 [null] DEBUG Quick1X.Configurator - Getting for the following 
+2017-12-05 21:15:11,614 [null] DEBUG Quick1X.NetworkInterfaceWlan - Applying credentials profile
+2017-12-05 21:15:11,692 [null] DEBUG Quick1X.NetworkInterfaceWlan - Successfully applied credentials profile
+2017-12-05 21:15:11,692 [null] DEBUG changelog - Created wireless network profile : eduroam
+2017-12-05 21:15:11,692 [null] DEBUG Quick1X.QuickConnectDlg - Connect To Network Available
+2017-12-05 21:15:11,692 [null] DEBUG Quick1X.QuickConnectDlg - All the networks configured successfully
+2017-12-05 21:15:11,770 [main] DEBUG Quick1X.QuickConnectDlg - Calling javascript method :configureCompleted
+2017-12-05 21:15:13,646 [main] DEBUG Quick1X.QuickConnectDlg - Processing connect
+2017-12-05 21:15:13,646 [null] DEBUG Quick1X.Configurator - Attempting to connect
+2017-12-05 21:15:13,646 [null] DEBUG Quick1X.Configurator - Connecting to wireless network
+2017-12-05 21:15:13,646 [null] DEBUG Quick1X.NetworkInterfaceWlan - Waiting for interface to connect
+2017-12-05 21:15:18,662 [null] ERROR Quick1X.NetworkInterfaceWlan - Could not check connection to wireless network: Error querying autoconfig info - code: 5023, msg The group or resource is not in the correct state to perform the requested operation.
+
+2017-12-05 21:15:23,678 [null] ERROR Quick1X.NetworkInterfaceWlan - Could not check connection to wireless network: Error querying autoconfig info - code: 5023, msg The group or resource is not in the correct state to perform the requested operation.
+
+2017-12-05 21:15:28,679 [null] ERROR Quick1X.NetworkInterfaceWlan - Could not check connection to wireless network: Error querying autoconfig info - code: 5023, msg The group or resource is not in the correct state to perform the requested operation.
+
+2017-12-05 21:15:33,695 [null] ERROR Quick1X.NetworkInterfaceWlan - Could not check connection to wireless network: Error querying autoconfig info - code: 5023, msg The group or resource is not in the correct state to perform the requested operation.
+
+2017-12-05 21:15:38,711 [null] ERROR Quick1X.NetworkInterfaceWlan - Could not check connection to wireless network: Error querying autoconfig info - code: 5023, msg The group or resource is not in the correct state to perform the requested operation.
+
+2017-12-05 21:15:43,727 [null] ERROR Quick1X.NetworkInterfaceWlan - Could not check connection to wireless network: Error querying autoconfig info - code: 5023, msg The group or resource is not in the correct state to perform the requested operation.
+
+2017-12-05 21:15:48,728 [null] ERROR Quick1X.NetworkInterfaceWlan - Could not check connection to wireless network: Error querying autoconfig info - code: 5023, msg The group or resource is not in the correct state to perform the requested operation.
+
+2017-12-05 21:15:53,744 [null] ERROR Quick1X.NetworkInterfaceWlan - Could not check connection to wireless network: Error querying autoconfig info - code: 5023, msg The group or resource is not in the correct state to perform the requested operation.
+
+2017-12-05 21:15:58,760 [null] ERROR Quick1X.NetworkInterfaceWlan - Could not check connection to wireless network: Error querying autoconfig info - code: 5023, msg The group or resource is not in the correct state to perform the requested operation.
+
+2017-12-05 21:16:03,776 [null] ERROR Quick1X.NetworkInterfaceWlan - Could not check connection to wireless network: Error querying autoconfig info - code: 5023, msg The group or resource is not in the correct state to perform the requested operation.
+
+2017-12-05 21:16:08,792 [null] ERROR Quick1X.NetworkInterfaceWlan - Could not check connection to wireless network: Error querying autoconfig info - code: 5023, msg The group or resource is not in the correct state to perform the requested operation.
+
+2017-12-05 21:16:13,808 [null] ERROR Quick1X.NetworkInterfaceWlan - Could not check connection to wireless network: Error querying autoconfig info - code: 5023, msg The group or resource is not in the correct state to perform the requested operation.
+
+2017-12-05 21:16:18,825 [null] ERROR Quick1X.NetworkInterfaceWlan - Could not check connection to wireless network: Error querying autoconfig info - code: 5023, msg The group or resource is not in the correct state to perform the requested operation.
+
+2017-12-05 21:16:23,841 [null] ERROR Quick1X.NetworkInterfaceWlan - Could not check connection to wireless network: Error querying autoconfig info - code: 5023, msg The group or resource is not in the correct state to perform the requested operation.
+
+2017-12-05 21:16:28,857 [null] ERROR Quick1X.NetworkInterfaceWlan - Wireless interface is not connected
+2017-12-05 21:19:03,654 [null] ERROR Quick1X.Configurator - Connecting to wireless network failed.
+2017-12-05 21:19:03,654 [null] ERROR Quick1X.QuickConnectDlg - Wireless device could not connect
+2017-12-05 21:19:03,654 [null] DEBUG Quick1X.Util - Running config task as logged in user
+
+Script Log
+==========
+12/5/2017 9:15:02 PM   Adapter type detect starting
+12/5/2017 9:15:02 PM   Realtek PCIe GBE Family Controller  Type: 0
+12/5/2017 9:15:02 PM   Dell Wireless 1707 802.11b/g/n (2.4GHZ)  Type: 9
+12/5/2017 9:15:02 PM   Bluetooth Device (Personal Area Network)  Type: 10
+12/5/2017 9:15:02 PM   Microsoft Wi-Fi Direct Virtual Adapter  Type: 9
+12/5/2017 9:15:03 PM   Adapter type detect starting
+12/5/2017 9:15:03 PM   Realtek PCIe GBE Family Controller  Type: 0
+12/5/2017 9:15:03 PM   Dell Wireless 1707 802.11b/g/n (2.4GHZ)  Type: 9
+12/5/2017 9:15:03 PM   Bluetooth Device (Personal Area Network)  Type: 10
+12/5/2017 9:15:03 PM   Microsoft Wi-Fi Direct Virtual Adapter  Type: 9
+12/5/2017 9:15:11 PM   Adapter type detect starting
+12/5/2017 9:15:11 PM   Realtek PCIe GBE Family Controller  Type: 0
+12/5/2017 9:15:11 PM   Dell Wireless 1707 802.11b/g/n (2.4GHZ)  Type: 9
+12/5/2017 9:15:11 PM   Bluetooth Device (Personal Area Network)  Type: 10
+12/5/2017 9:15:11 PM   Microsoft Wi-Fi Direct Virtual Adapter  Type: 9
+
+Helper Log
+==========
+2017-12-05 21:15:11,036 [main] DEBUG Quick1X.WlanApi - Initializing wlan api.
+2017-12-05 21:15:11,036 [main] DEBUG Quick1X.QuickConnectHelper - Initing config
+2017-12-05 21:15:11,036 [main] DEBUG Quick1X.QuickConnectHelper - Selected network eduroam
+2017-12-05 21:15:11,036 [main] DEBUG Quick1X.Util - Attempting operating system detection.
+2017-12-05 21:15:11,036 [main] DEBUG Quick1X.Util - running Windows Enterprise Version
+2017-12-05 21:15:11,036 [main] DEBUG Quick1X.Util - Detected operating system higher than Windows XP
+2017-12-05 21:15:11,036 [main] DEBUG Quick1X.Util - Attempting operating system detection.
+2017-12-05 21:15:11,036 [main] DEBUG Quick1X.Util - running Windows Enterprise Version
+2017-12-05 21:15:11,036 [main] DEBUG Quick1X.Util - Detected operating system higher than Windows XP
+2017-12-05 21:15:11,036 [main] DEBUG Quick1X.Config - Initing configuration.
+2017-12-05 21:15:11,036 [main] DEBUG Quick1X.Config - QuickConnect Mode isonboard
+2017-12-05 21:15:11,036 [main] DEBUG Quick1X.QuickConnectHelper - Inited config
+2017-12-05 21:15:11,036 [main] DEBUG Quick1X.QuickConnectHelper - Initing profiles
+2017-12-05 21:15:11,036 [main] DEBUG Quick1X.Config - Initing common profile.
+2017-12-05 21:15:11,036 [main] DEBUG Quick1X.Config - Checking admin credentials.
+2017-12-05 21:15:11,036 [main] DEBUG Quick1X.Config - Admin credentials not found.
+2017-12-05 21:15:11,036 [main] DEBUG Quick1X.Config - Initing wireless profile
+2017-12-05 21:15:11,052 [main] DEBUG Quick1X.Config - Initing wired profile
+2017-12-05 21:15:11,052 [main] DEBUG Quick1X.Config - Wired section does not exist
+2017-12-05 21:15:11,052 [main] DEBUG Quick1X.QuickConnectHelper - Initing device info
+2017-12-05 21:15:11,052 [main] DEBUG Quick1X.DeviceInfo - Starting interface detection
+2017-12-05 21:15:11,052 [main] DEBUG Quick1X.Util - Running config task as logged in user
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.Util - Exit code from execed process 0
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Checking interface :Realtek PCIe GBE Family Controller
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Interface Type     :6
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Interface state    :2
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Trying to filter :Realtek PCIe GBE Family Controller
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Trying to filter (Unicode) :Realtek PCIe GBE Family Controller
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Adapter GUID:CC8100AD-1A85-40FF-A760-DAC2275A8F2D
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Description: Realtek PCIe GBE Family Controller
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Name: Ethernet
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - State: DISCONNECTED
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - DHCP : Enabled
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - DNS Registration: Enabled
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - DNS by DHCP: Enabled
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - MAC Address: 50:9A:4C:1E:51:1B
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Interface type : Wired
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Checking interface :Microsoft Wi-Fi Direct Virtual Adapter
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Interface Type     :71
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Interface state    :2
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Trying to filter :Microsoft Wi-Fi Direct Virtual Adapter
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Discarding interface : Microsoft Wi-Fi Direct Virtual Adapter
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Checking interface :Dell Wireless 1707 802.11b/g/n (2.4GHZ)
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Interface Type     :71
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Interface state    :1
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Trying to filter :Dell Wireless 1707 802.11b/g/n (2.4GHZ)
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Trying to filter (Unicode) :Dell Wireless 1707 802.11b/g/n (2.4GHZ)
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Adapter GUID:F8803D13-323E-4A9D-A7E2-40649CAC318F
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Description: Dell Wireless 1707 802.11b/g/n (2.4GHZ)
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Name: Wi-Fi
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - State: CONNECTED
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - DHCP : Enabled
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - DNS Registration: Enabled
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - DNS by DHCP: Enabled
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - MAC Address: D4:6A:6A:82:FF:45
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Interface type : Wireless
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Checking interface :Bluetooth Device (Personal Area Network)
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Interface Type     :6
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Interface state    :2
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Trying to filter :Bluetooth Device (Personal Area Network)
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Discarding interface : Bluetooth Device (Personal Area Network)
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Checking interface :Software Loopback Interface 1
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Interface Type     :24
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.DeviceInfo - Interface state    :1
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.QuickConnectHelper - Initing configurator
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.Configurator - Detecting service status for dot3svc
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.Configurator - Service dot3svc is NOT auto start
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.Configurator - Service dot3svc is NOT running
+2017-12-05 21:15:11,083 [main] DEBUG Quick1X.Configurator - Detecting service status for Wlansvc
+2017-12-05 21:15:11,098 [main] DEBUG Quick1X.Configurator - Service Wlansvc is auto start
+2017-12-05 21:15:11,098 [main] DEBUG Quick1X.Configurator - Service Wlansvc is running
+2017-12-05 21:15:11,098 [main] DEBUG Quick1X.Configurator - Detecting service status for wscsvc
+2017-12-05 21:15:11,098 [main] DEBUG Quick1X.Configurator - Service wscsvc is auto start
+2017-12-05 21:15:11,098 [main] DEBUG Quick1X.Configurator - Service wscsvc is running
+2017-12-05 21:15:11,098 [main] DEBUG Quick1X.Configurator - Detecting service status for napagent
+2017-12-05 21:15:11,098 [main] ERROR Quick1X.Configurator - Could not open service handle for napagent
+2017-12-05 21:15:11,098 [main] DEBUG Quick1X.Configurator - Checking NAP QEC registry key
+2017-12-05 21:15:11,098 [main] DEBUG Quick1X.Registry - Could not open registry key for reading
+2017-12-05 21:15:11,098 [main] DEBUG Quick1X.Configurator - NAP 802.1X QEC is disabled
+2017-12-05 21:15:11,098 [main] DEBUG Quick1X.QuickConnectHelper - Got credentials for username: mverbyla
+2017-12-05 21:15:11,098 [main] DEBUG Quick1X.QuickConnectHelper - MDPS URL is configured, looking for TLS certificate
+2017-12-05 21:15:11,098 [main] DEBUG Quick1X.QuickConnectHelper - Adding TLS certifiate to credentials
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.CertificateStore - Got certificate with name : mverbyla
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.CertificateStore - Got certificate thumbprint : 692558d778fc1630e3bd4aee20e72c9c331d08b6
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.QuickConnectHelper - Starting configuration
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.QuickConnectHelper - Wireless connection, GUID: F8803D13-323E-4A9D-A7E2-40649CAC318F Name: Wi-Fi
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.QuickConnectHelper - Wired connection, GUID: CC8100AD-1A85-40FF-A760-DAC2275A8F2D Name: Ethernet
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.QuickConnectHelper - Doing admin requirement computation
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.Configurator - Collection the Applications to be installed
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.Configurator - No applications have to be installed
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.Configurator - Admin access needed to install TLS certificate in machine store
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.Configurator - Configuring system services
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.Configurator - Wireless services are required
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.Configurator - Wireless service is already running and auto start
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.Configurator - Configured system services successfully
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.Configurator - Iinitializing wired device
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.Configurator - Checking applications to install
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.Configurator - Collection the Applications to be installed
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.Configurator - No applications have to be installed
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.Configurator - Installing TLS certificate to machine store
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.CProfileBuilder - Certificates for wireless
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.CProfileBuilder - Certificate ID: cer_3
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.CProfileBuilder - Thumbprint : f5fb01dea6e59ca6dd057054f4a3ff72dde1d5c6
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.CProfileBuilder - Certificate ID: cer_2
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.CProfileBuilder - Thumbprint : eab040689a0d805b5d6fd654fc168cff00b78be3
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.CProfileBuilder - Certificate ID: cer_1
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.CProfileBuilder - Thumbprint : 02faf3e291435468607857694df5e45b68851868
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.CProfileBuilder - Client Certificate issuers for for wireless
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.CProfileBuilder - Certificate ID: clientcacer_0
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.CProfileBuilder - Thumbprint : 35a814e37be71d7f11667faf982f1d4341b193cb
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.CProfileBuilder - Certificate ID: clientcacer_1
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.CProfileBuilder - Thumbprint : 045d5f32fd6065b3a705e830f83e3ef0a9ee02d3
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.Configurator - Installing certificates to Machine
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.Configurator - Attempting to install cert cer_1.der
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.CertificateStore - Added certificated to trusted store of Machine
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.Configurator - Attempting to install cert cer_2.der
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.CertificateStore - Added certificated to trusted store of Machine
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.Configurator - Attempting to install cert cer_3.der
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.CertificateStore - Added certificated to trusted store of Machine
+2017-12-05 21:15:11,114 [main] DEBUG Quick1X.Configurator - Attempting to install cert clientcacer_0.der
+2017-12-05 21:15:11,130 [main] DEBUG Quick1X.CertificateStore - Added certificated to trusted store of Machine
+2017-12-05 21:15:11,130 [main] DEBUG Quick1X.Configurator - Attempting to install cert clientcacer_1.der
+2017-12-05 21:15:11,130 [main] DEBUG Quick1X.CertificateStore - Added certificated to trusted store of Machine
+2017-12-05 21:15:11,130 [main] DEBUG Quick1X.Configurator - TLS certificate present and TLS method is configured, attempting to install certificate
+2017-12-05 21:15:11,130 [main] DEBUG Quick1X.CertificateStore - Added certificate successfully
+2017-12-05 21:15:11,130 [main] DEBUG Quick1X.Configurator - Successfully installed machine certificates
+2017-12-05 21:15:11,130 [main] DEBUG Quick1X.Configurator - Configuring wired profile
+2017-12-05 21:15:11,130 [main] DEBUG Quick1X.Configurator - Wired profile is empty
+

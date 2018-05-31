@@ -1,3 +1,5 @@
+// arrow functions do have their own 'this', 'this' is inherited from parent scope.
+// cannot be called with new
 var myFunction1 = () => {
 	return 'success';
 }
