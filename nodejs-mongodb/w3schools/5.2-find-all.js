@@ -14,10 +14,10 @@ mongodb.MongoClient.connect( url, ( error, client ) => {
 	db.collection( collectionName, collectionOptions, ( error, collection ) => {
 		if ( error ) throw error;
 	}).find( findQuery, findOptions )
-	.toArray( ( error, result ) => {
+	.toArray( ( error, documents ) => {
 		if ( error ) throw error;
-		console.log( 'result:' );
-		console.log( result );
+		console.log( 'documents:' );
+		console.log( documents );
 		client.close();
 	});
 });
