@@ -13,9 +13,7 @@ mongodb.MongoClient.connect( url, ( error, client ) => {
 	var findQuery = {};
 	var findOptions = {
 		projection: {
-			_id: 0, // 0 denotes a field should not be returned
-			name: 1, // 1 denotes a field should be returned
-			address: 1
+			address: 0 // 0 denotes a field should not be returned
 		}
 	};
 	db.collection(
