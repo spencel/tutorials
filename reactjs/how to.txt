@@ -1,0 +1,9 @@
+repeat multiple elements:
+
+<ul>
+	{Object.keys( this.state.myMenu ).map( key =>
+		<li id={key} key={key} className="button"
+			onClick={( event ) => this.onButtonClick( event )} >{key}
+		</li>
+	)}
+</ul>
