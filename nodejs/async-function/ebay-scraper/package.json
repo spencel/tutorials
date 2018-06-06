@@ -1,0 +1,27 @@
+{
+  "name": "ebay-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "jshint": "^2.9.5",
+    "nodemon": "^1.17.5"
+  },
+  "scripts": {
+    "start": "node app",
+    "devstart": "nodemon --exec npm run babel-node -- ./app.js",
+    "babel-node": "babel-node --presets=latest",
+    "buil": "babel-node --presets=latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
