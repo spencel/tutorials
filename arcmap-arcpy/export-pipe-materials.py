@@ -20,7 +20,7 @@ gdbDirectory = os.path.dirname( mxdPath )
 ## set the gdb name same as mxd name
 gdbName = os.path.splitext( mxdName )[0] + ".gdb"
 ## get gdb path
-gdbPath =gdbDirectory + "\\" + gdbName
+gdbPath = gdbDirectory + "\\" + gdbName
 
 # create field map
 exportFields = [

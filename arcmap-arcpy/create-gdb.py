@@ -2,7 +2,7 @@ import os
 import arcpy
 
 # get mxd name
-mxd = arcpy.mapping.MapDocument( "CURRENT" )
+mxd = arcpy.mapping.MapDocument( 'CURRENT' )
 mxdPath = mxd.filePath
 mxdName = os.path.basename( mxdPath )
 
