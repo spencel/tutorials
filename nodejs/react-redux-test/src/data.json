@@ -1,0 +1,91 @@
+{
+	"taskGroups":[{
+		"id":0,
+		"description":"Make 10 TSA Petri Plates",
+		"requisiteId":null
+	},{
+		"id":1,
+		"description":"Make	Tryptic Soy Broth (TSB)",
+		"requisiteId":0
+	}],
+	"tasks":
+	[{
+		"id":0,
+		"description":"Add 8 g of dehydrated TSA powder to 200 mL of distilled water",
+		"timeRequired":10,
+		"requisiteId":null,
+		"taskGroupId":0
+	},{
+		"id":1,
+		"description":"Heat gently and mix until powder is dissolved",
+		"timeRequired":10,
+		"requisiteId":0,
+		"taskGroupId":0
+	},{
+		"id":2,
+		"description":"Adjust pH to 7.3 ± 0.2",
+		"timeRequired":10,
+		"requisiteId":1,
+		"taskGroupId":0
+	},{
+		"id":3,
+		"description":"Sterilize buy autoclaving for 15 minutes on liquid cycle",
+		"timeRequired":30,
+		"requisiteId":2,
+		"taskGroupId":0
+	},{
+		"id":4,
+		"description":"Pour or pipette 20 mL into each plate",
+		"timeRequired":10,
+		"requisiteId":3,
+		"taskGroupId":0
+	},{
+		"id":5,
+		"description":"Cool plates at room temperature until solid",
+		"timeRequired":10,
+		"requisiteId":4,
+		"taskGroupId":0
+	},{
+		"id":6,
+		"description":"Incubate plates for 1 day to check for contamination",
+		"timeRequired":1440,
+		"requisiteId":5,
+		"taskGroupId":0
+	},{
+		"id":7,
+		"description":"Put uncontaminated plates in a plastic bag",
+		"timeRequired":10,
+		"requisiteId":6,
+		"taskGroupId":0
+	},{
+		"id":8,
+		"description":"Store plastic bag at 4 °C",
+		"timeRequired":10,
+		"requisiteId":7,
+		"taskGroupId":0
+	},{
+		"id":9,
+		"description":"Add 3 g of dehydrated TSB powder to 100 mL of DI water",
+		"timeRequired":10,
+		"requisiteId":null,
+		"taskGroupId":1
+	},{
+		"id":10,
+		"description":"Heat gently and mix solution until powder is dissolved",
+		"timeRequired":10,
+		"requisiteId":9,
+		"taskGroupId":1
+	},{
+		"id":11,
+		"description":"Adjust pH to 7.3 ± 0.2",
+		"timeRequired":10,
+		"requisiteId":10,
+		"taskGroupId":1
+	},{
+		"id":12,
+		"description":"Sterilize buy autoclaving for 15 minutes on liquid cycle",
+		"timeRequired":10,
+		"requisiteId":11,
+		"taskGroupId":1
+	}]
+}
