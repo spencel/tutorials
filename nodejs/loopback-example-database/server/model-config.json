@@ -35,11 +35,8 @@
     "dataSource": "db",
     "public": false
   },
-  "Message": {
-    "dataSource": null
-  },
-  "person": {
-    "dataSource": "db",
+  "Organism": {
+    "dataSource": "gwpd",
     "public": true
   }
 }
