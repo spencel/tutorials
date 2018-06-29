@@ -1,5 +1,6 @@
 // requres es 7 (babel transpiler)
-( async () => {
+// semicolon is to prevent an error if the last symbol used is ')'?
+;( async (/*parameter(s) to pass in*/ window, jQuery, etc) => {
 		console.log( request.body );
 		var slow = await resolveAfter2Seconds();
 		var fast = await resolveAfter1Second();
@@ -24,4 +25,4 @@
 		    }, 2000);
 		  });
 		};
-	})();
+	})(/*parameter(s) to pass in*/ window, jQuery, etc);
