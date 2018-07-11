@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="">
+		<!-- development version, includes helpful console warnings -->
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<!-- production version, optimized for size and speed -->
+		<!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		<!-- Interpolations -->
+		<!-- data that changes -->
+		<span>Message: {{ msg }}</span>
+		<!-- data that never changes use v-once directive -->
+		<span v-once>This will never change: {{ msg }}</span>
+		<!-- render data containing html data using v-html -->
+		<p>Using mustaches: {{ rawHtml }}</p>
+		<p>Using v-html directive: <span v-html="rawHtml"></span></p>
+		<!-- put variables inside html attributes using v-bind -->
+		<div v-bind:id="dynamicId"></div>
+		<!-- If isButtonDisabled has the value of null, undefined, or false, the disabled attribute will not even be included in the rendered <button> element. -->
+		<button v-bind:disabled="isButtonDisabled">Button</button>
+		<!-- javascript expressions -->
+		{{ number + 1 }}
+		{{ ok ? 'YES' : 'NO' }}
+		{{ message.split('').reverse().join('') }}
+		<!-- these expressions won't work -->
+		<!-- this is a statement, not an expression: -->
+		{{ var a = 1 }}
+		<!-- flow control won't work either, use ternary expressions -->
+		{{ if (ok) { return message } }}
+		<div v-bind:id="'list-' + id"></div>
+		<!-- full syntax -->
+		<a v-bind:href="url"> ... </a>
+		<!-- shorthand -->
+		<a :href="url"> ... </a>
+		<!-- full syntax -->
+		<a v-on:click="doSomething"> ... </a>
+		<!-- shorthand -->
+		<a @click="doSomething"> ... </a>
+	</body>
+</html>
