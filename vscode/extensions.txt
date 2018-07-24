@@ -1,0 +1,6 @@
+beautify
+eslint
+npm intellisense
+python
+vscode-icons
+material icon theme

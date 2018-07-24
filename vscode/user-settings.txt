@@ -1,0 +1,8 @@
+{
+    "workbench.activityBar.visible": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": false,
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "material-icon-theme"
+}
