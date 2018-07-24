@@ -1,0 +1,38 @@
+use a build tool (webpack, browserify)
+use a linting tool (eslint, tslint)
+don't use == (use ===)
+understand truthiness
+	true:
+		if (true)
+		if ({})
+		if ([])
+		if (42)
+		if ("foo")
+		if (new Date())
+		if (-42)
+		if (3.14)
+		if (-3.14)
+		if (Infinity)
+		if (-Infinity)
+	false:
+		if (false)
+		if (null)
+		if (undefined)
+		if (0)
+		if (NaN)
+		if ('')
+		if ("")
+		if (document.all)
+don't use var (use const and let)
+don't use 'this'
+don't use classes (unless they are from a package)
+use futures or promises (fluture, bluebird)
+use a functional library (ramda, fp-ts, lodash, sanctuary)
+use validation (io-ts, json schema, ajv)
+use types (typescript, flow)
+use pure functions (ternary operator, not doing side effects)
+use immutable data (by convention, immutablejs, mori)
+
+or
+
+just use purescript
