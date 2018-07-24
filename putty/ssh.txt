@@ -1,4 +1,2 @@
-Make sure the directory of putty.exe is in window's path variable.
-
-open cmd
-type: putty -ssh [username]@[host.com]
+501630	BUTTERFLY	20	N	N	0	0	Y	CITY OF SAN DIEGO		
+502692	BUTTERFLY	20	N	N	0	0	Y	CITY OF SAN DIEGO
