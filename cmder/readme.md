@@ -1,0 +1,1 @@
+make sure to check the box for run as administrator in cmder.exe compatability tab
