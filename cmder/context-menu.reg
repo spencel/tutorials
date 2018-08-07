@@ -1,8 +1,11 @@
 Windows Registry Editor Version 5.00
 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers]
+"C:\\Programs\\cmder\\Cmder.exe"="RUNASADMIN"
+
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Cmder]
 @="&cmder"
-"Icon"="D:\\cmder\\icons\\cmder.ico,0"
+"Icon"="C:\\Programs\\cmder\\icons\\cmder.ico,0"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Cmder\command]
-@="\"D:\\cmder\\Cmder.exe\" /START \"%v\""
+@="\"C:\\Programs\\cmder\\Cmder.exe\" /START \"%v\""
