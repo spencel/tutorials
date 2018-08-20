@@ -1,0 +1,1 @@
+Can vue directives be used in JSX? No, however JSX can provide features not provided by vue directives if needed.
