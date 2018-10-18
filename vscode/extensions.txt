@@ -1,6 +1,28 @@
+sources:
+	https://dev.to/chrisvasqm/must-have-extensions-for-vs-code-according-to-me-dho
 beautify
 eslint
 npm intellisense
 python
 vscode-icons
 material icon theme
+Auto Close Tag
+Auto Rename Tag
+Create File & Folders: On The Go
+HTML Boilerplate
+Numbered Bookmarks
+Prettier - Code formatter
+SQL Server (mssql)
+Rainbow Brackets
+Rainbow CSV
+Vim
+Auto import
+Clipboard History
+check https://dev.to/chrisvasqm/must-have-extensions-for-vs-code-according-to-me-dho for more
+
+For R
+	sourfces
+		https://milesmcbain.xyz/alt-r-with-vscode/
+	R
+	R LSP Client
+	
